@@ -11,7 +11,8 @@ body {
 }
 
 canvas {
-  vertical-align: bottom;
+  display: block;
+  /* vertical-align: bottom; */
 }
 
 /* Particle container. */
@@ -53,9 +54,6 @@ canvas {
 .card-img-top {
   border-bottom-left-radius: 0px;
   border-bottom-right-radius: 0px;
-}
-
-#card-button {
 }
 
 .field {
