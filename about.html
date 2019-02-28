@@ -9,12 +9,12 @@
     <!-- Link to CSS -->
     <link rel="stylesheet" type="text/css" href="/assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat|Pacifico" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Pacifico|Hind" rel="stylesheet">
   </head>
-  <body>
+  <body class="has-background-dark">
     
     <!-- Header -->
-    <section class="hero is-light is-bold">
+    <section class="hero is-dark is-bold">
         <!-- Hero head: will stick at the top -->
         <div class="hero-head">
           <nav class="navbar">
@@ -55,10 +55,10 @@
         </div>
       
         <!-- Hero content: will be in the middle -->
-        <div class="hero-body">
+        <div class="hero-body montserrat">
           <div class="container has-text-centered">
             <h1 class="title">
-              Julie Ragsdale
+              <a href="index.html">Julie Ragsdale</a>
             </h1>
             <h2 class="subtitle">
               Artist | Web Developer
@@ -71,7 +71,6 @@
           <nav class="tabs">
             <div class="container">
               <ul>
-                <li><a href="index.html">Home</a></li>
                 <li class="is-active"><a href="about.html">About</a></li>
                 <li><a href="portfolio.html">Portfolio</a></li>
                 <li><a href="contact.html">Contact</a></li>
@@ -83,41 +82,49 @@
       <br><br>
 
     <!-- Main Content -->
-    <section class="section">
-      <section>
-          <div class="card" style="width: 18rem;">
-              <img src="assets/images/headshot.jpg" class="card-img-top" alt="Picture of Julie Ragsdale">
-              <div class="card-content">
-                <div class="media">
-                  <div class="media-left">
-                    <figure class="image is-48x48">
-                      <img src="http://nodeforward.org/wp-content/uploads/2018/10/Ei-sc-github.svg_.png" alt="Placeholder image">
-                    </figure>
-                  </div>
-                  <div class="media-content">
-                    <p class="title is-4">Julie Ragsdale</p>
-                    <p class="subtitle is-6">@leaf-junkie</p>
-                  </div>
-                  <p></p>
-              </div>
-              <a href="portfolio.html" class="button is-primary" id="card-button">Portfolio</a>
+    <section class="section columns level">
+      <div class="column is-two-thirds">
+        <div class="section has-background-dark has-text-light rounded-corners" id="things-i-like">
+          <p class="title has-text-light montserrat">Hi, I'm Julie!</p>
+          <p class="is-size-5">Thanks for taking a moment to visit my page. While I'm new to 
+            web development, I'm learning a lot of material and am learning it fast. I absolutely 
+            love web development and am passionate about design. I feel strongly about the 
+            significant contributions that subtle details add to a website.</p>
+          <br>
+          <p class="subtitle has-text-light">These are a few of my favorite things:</p>
+          <ul class="content is-size-5">
+            <li>house plants</li>
+            <li>cats + dogs</li>
+            <li>creating art</li>
+            <li>designing + coding</li>
+            <li>lattes</li>
+            <li>moody, grey weather</li>
+          </ul>
+        </div>
+      </div>
+      <div class="card has-background-dark has-text-light" style="width: 18rem;">
+        <img src="assets/images/headshot.jpg" class="card-img-top" alt="Picture of Julie Ragsdale">
+        <div class="card-content">
+          <div class="media">
+            <div class="media-left">
+              <figure class="image is-48x48">
+                <img src="https://magentys.io/wp-content/uploads/2017/04/github-logo-1.png" alt="Placeholder image">
+              </figure>
+            </div>
+            <div class="media-content">
+              <p class="title is-4  has-text-light">Julie Ragsdale</p>
+              <p class="subtitle is-6 has-text-light">@leaf-junkie</p>
+            </div>
           </div>
-      </section>
-      <div class="section has-background-light rounded-corners" id="things-i-like">
-        <p class="subtitle">Things I like:</p>
-            <ul class="content">
-                <li>Plants</li>
-                <li>Cats + dogs</li>
-                <li>Appreciating + creating art</li>
-                <li>Designing + coding</li>
-                <li>Iced lattes</li>
-                <li>Grey + moody weather</li>
-            </ul>
+          <div class="has-text-centered">
+            <a href="portfolio.html" class="button is-primary" id="card-button">Portfolio</a>
+          </div>
+        </div>
       </div>
     </section>
 
     <!-- Footer -->
-    <footer class="footer">
+    <footer class="footer has-background-dark">
         <div class="container has-text-centered">
             <p><a href="https://github.com/leaf-junkie">Julie Ragsdale</a> | © 2018</p>
             <br>
