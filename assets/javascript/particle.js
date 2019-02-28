@@ -10,7 +10,7 @@ particlesJS("particle-container", {
         }
       },
       "color": {
-        "value": "random"
+        "value": "#fff0ef"
       },
       "shape": {
         "type": "circle",

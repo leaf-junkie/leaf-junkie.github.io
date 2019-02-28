@@ -40,6 +40,18 @@ canvas {
   color: #999;
 }
 
+#julie:active {
+  color: #999;
+}
+
+#julie:focus {
+  color: #999;
+}
+
+a {
+  color: #fff;
+}
+
 /* Rounded corners */
 .card-img-top,
 .card,
