@@ -4,137 +4,96 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Julie</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css">
-    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>    
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script> 
     <!-- Link to CSS -->
     <link rel="stylesheet" type="text/css" href="/assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Pacifico|Hind" rel="stylesheet">
   </head>
-  <body class="has-background-dark">
-    
+  <body>
     <!-- Header -->
-    <section class="hero is-dark is-bold">
-        <!-- Hero head: will stick at the top -->
-        <div class="hero-head">
-          <nav class="navbar">
-            <div class="container">
-              <div class="navbar-brand">
-                <a class="navbar-item">
-                    <script type='text/javascript' src='https://ko-fi.com/widgets/widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Treat me to coffee', '#46b798', 'T6T5PSZH');kofiwidget2.draw();</script> 
-                </a>
-                <span class="navbar-burger burger" data-target="navbarMenuHeroA">
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                </span>
-              </div>
-              <div id="navbarMenuHeroA" class="navbar-menu">
-                <div class="navbar-end">
-                  <a class="navbar-item is-active">
-                    Home
-                  </a>
-                  <a class="navbar-item">
-                    About
-                  </a>
-                  <a class="navbar-item">
-                    Portfolio
-                  </a>
-                  <span class="navbar-item">
-                    <a class="button is-primary is-inverted">
-                      <span class="icon">
-                        <i class="fab fa-github"></i>
-                      </span>
-                      <span>Download</span>
-                    </a>
-                  </span>
-                </div>
-              </div>
-            </div>
-          </nav>
+    <header>
+      <nav>
+        <div class="nav-wrapper container">
+          <a href="index.html" class="brand-logo">Julie Ragsdale</a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="about.html">About</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
         </div>
-      
-        <!-- Hero content: will be in the middle -->
-        <div class="hero-body montserrat">
-          <div class="container has-text-centered">
-            <h1 class="title">
-              <a href="index.html">Julie Ragsdale</a>
-            </h1>
-            <h2 class="subtitle">
-              Artist | Web Developer
-            </h2>
-          </div>
-        </div>
-      
-        <!-- Hero footer: will stick at the bottom -->
-        <div class="hero-foot">
-          <nav class="tabs">
-            <div class="container">
-              <ul>
-                <li class="is-active"><a href="about.html">About</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="contact.html">Contact</a></li>
-              </ul>
-            </div>
-          </nav>
-        </div>
-      </section>
-      <br><br>
-
+      </nav>
+    </header>
     <!-- Main Content -->
-    <section class="section columns level">
-      <div class="column is-two-thirds">
-        <div class="section has-background-dark has-text-light rounded-corners" id="things-i-like">
-          <p class="title has-text-light montserrat">Hi, I'm Julie!</p>
-          <p class="is-size-5">Thanks for taking a moment to visit my page. While I'm new to 
+    <main class="container">
+      <div class="row">
+        <div class="col s6 m6 l6">
+          <p>Hi, I'm Julie!</p>
+          <p>Thanks for taking a moment to visit my page. While I'm new to 
             web development, I'm learning a lot of material and am learning it fast. I absolutely 
             love web development and am passionate about design. I feel strongly about the 
             significant contributions that subtle details add to a website.</p>
-          <br>
-          <p class="subtitle has-text-light">These are a few of my favorite things:</p>
-          <ul class="content is-size-5">
-            <li>house plants</li>
-            <li>cats + dogs</li>
-            <li>creating art</li>
-            <li>designing + coding</li>
-            <li>lattes</li>
-            <li>moody, grey weather</li>
-          </ul>
         </div>
-      </div>
-      <div class="card has-background-light" style="width: 18rem;">
-        <img src="assets/images/headshot.jpg" class="card-img-top" alt="Picture of Julie Ragsdale">
-        <div class="card-content">
-          <div class="media">
-            <div class="media-left">
-              <figure class="image is-48x48">
-                <img src="https://magentys.io/wp-content/uploads/2017/04/github-logo-1.png" alt="Placeholder image">
-              </figure>
+        <div class="col s6 m6 l6">
+          <div class="card">
+            <div class="card-image">
+              <img src="assets/images/headshot.jpg" alt="Picture of Julie Ragsdale">
+              <span class="card-title">Julie Ragsdale</span>
+              <a class="btn-floating halfway-fab waves-effect waves-light red" href="contact.html"><i class="material-icons">add</i></a>
             </div>
-            <div class="media-content">
-              <p class="title is-4">Julie Ragsdale</p>
-              <p class="subtitle is-6">@leaf-junkie</p>
+            <div class="card-content">
+              <p>These are a few of my favorite things:</p>
+              <ul>
+                <li>house plants</li>
+                <li>cats + dogs</li>
+                <li>creating art</li>
+                <li>designing + coding</li>
+                <li>lattes</li>
+                <li>moody, grey weather</li>
+              </ul>
             </div>
-          </div>
-          <div class="has-text-centered">
-            <a href="portfolio.html" class="button is-primary" id="card-button">Portfolio</a>
           </div>
         </div>
       </div>
-    </section>
+                
+      <img src="https://magentys.io/wp-content/uploads/2017/04/github-logo-1.png" alt="Placeholder image">
 
+      <div>
+        <a href="portfolio.html" class="button is-primary" id="card-button">Portfolio</a>
+      </div>
+    </main>
     <!-- Footer -->
-    <footer class="footer has-background-dark">
-        <div class="container has-text-centered has-text-light">
-            <p><a href="https://github.com/leaf-junkie">Julie Ragsdale</a> | © 2018</p>
-            <br>
-            <img src="https://bulma.io/images/made-with-bulma.png"  style="max-width: 150px;">
+    <footer class="page-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h5 class="white-text">Julie Ragsdale</h5>
+            <p class="grey-text text-lighten-4">Find me on <a href="https://github.com/leaf-junkie">Github</a>!</p>
+          </div>
+          <div class="col l4 offset-l2 s12">
+            <h5 class="white-text">Links</h5>
+            <ul>
+              <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+            </ul>
+          </div>
         </div>
+      </div>
+      <img src="https://bulma.io/images/made-with-bulma.png"  style="max-width: 150px;">
+      <div class="footer-copyright">
+        <div class="container">
+        © 2019 Copyright
+        <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+        </div>
+      </div>
     </footer>
-
-    <!-- Links to jQuery (slim build), Popper.js, and JavaScript
+    <!-- Materialize JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script> -->
   </body>
 </html>
