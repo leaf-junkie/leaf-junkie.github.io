@@ -39,30 +39,28 @@
               <h4 class="white-text" style="padding-bottom:10px">I can't wait to hear from you!</h4>
             </div>
           </div>
-          <div class="formContainer" style="padding:0 25px 25px 25px;">
+          <form style="padding:0 25px 25px 25px;">
             <div class="row">
               <div class="input-field col s6">
                 <i class="material-icons prefix">person</i>
-                <input type="text" id="autocomplete-input" class="autocomplete">
+                <input type="text" id="autocomplete-input" class="name autocomplete">
                 <label for="autocomplete-input">Name</label>
               </div>
               <div class="input-field col s6">
                 <i class="material-icons prefix">email</i>
-                <input type="email" id="autocomplete-input" class="autocomplete">
+                <input type="email" id="autocomplete-input" class="email autocomplete">
                 <label for="autocomplete-input">Email</label>
               </div>
             </div>
             <div class="row">
-              <form class="col s12">
-                <div class="row">
-                  <div class="input-field col s12">
-                    <i class="material-icons prefix">mode_edit</i>
-                    <textarea id="textarea1" class="materialize-textarea"></textarea>
-                    <label for="textarea1">Message</label>
-                  </div>
-                </div>
-              </form>
+              <div class="input-field col s12">
+                <i class="material-icons prefix">mode_edit</i>
+                <textarea id="textarea1" class="materialize-textarea"></textarea>
+                <label for="textarea1">Message</label>
+              </div>
             </div>
+            <div class="status"></div>
+            <br>
             <div class="buttonGroup">
               <div class="control">
                   <a class="waves-effect waves-light teal btn submit">Submit</a>
@@ -71,7 +69,7 @@
                 <a class="waves-effect waves-red btn-flat cancel">Cancel</a>
               </div>
             </div>
-          </div>
+          </form>
         </div>
       </div>
     </main>
@@ -110,5 +108,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- JavaScript -->
+    <script src="/assets/javascript/app.js"></script>
   </body>
 </html>
