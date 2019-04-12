@@ -2,12 +2,13 @@ body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
-  font-family: 'Montserrat';
   line-height: 150%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
 }
 
 header {
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
 }
 
 nav {
@@ -20,11 +21,30 @@ main {
 }
 
 p {
-  font-family: 'Lora';
+  font-family: 'Lora', serif;
+}
+
+h1 {
+  font-size: 36px;
+}
+h4 {
+  font-size: 20px;
 }
 
 i {
   vertical-align: text-bottom;
+}
+
+a {
+  color: #9e9e9e;
+}
+
+a:hover {
+  color: #e0e0e0;
+}
+
+.bold {
+  font-weight: bold;
 }
 
 .julie {
@@ -33,4 +53,37 @@ i {
 
 .buttonGroup {
   display: flex;
+}
+
+/* Particles for landing page */
+#particle-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #424242 ;
+}
+
+#julie {
+position: relative;
+top: 45%;
+bottom: 0;
+right: 0;
+left: 0;
+width: 100%;
+margin: 0 auto;
+color: #fff;
+font-size: 100px;
+text-align: center;
+}
+
+#julie:hover {
+color: #999;
+}
+
+#julie:active {
+color: #fff0ef;
+}
+
+#julie:focus {
+color: #999;
 }

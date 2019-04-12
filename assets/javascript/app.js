@@ -20,11 +20,14 @@ app.post( '/api/sendemail/', function(req, res){
 
     var _name = req.body.name;
     var _email = req.body.email;
-    var _subject = req.body.subject;
     var _messsage = req.body.message;
 
     //implement your spam protection or checks. 
 
-    sendEmail ( _name, _email, _subject, _message );
+    sendEmail ( _name, _email, _message );
 
 });
+
+// When user clicks "cancel" button or "X" button, clear the form
+
+// When user clicks the "Submit" button, submit data and send email
