@@ -10,6 +10,8 @@
     <!-- Link to CSS -->
     <link rel="stylesheet" type="text/css" href="/assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Pacifico|Hind" rel="stylesheet">
   </head>
   <body>
@@ -33,59 +35,35 @@
         <div class="col s12 m6 l6">
           <div class="row">
             <div class="input-field col s12">
-              <i class="material-icons prefix">textsms</i>
+              <i class="material-icons prefix">person</i>
               <input type="text" id="autocomplete-input" class="autocomplete">
-              <label for="autocomplete-input">Autocomplete</label>
+              <label for="autocomplete-input">Name</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12">
+              <i class="material-icons prefix">email</i>
+              <input type="text" id="autocomplete-input" class="autocomplete">
+              <label for="autocomplete-input">Email</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12">
+              <i class="material-icons prefix">message</i>
+              <input type="text" id="" class="autocomplete">
+              <label for="">Message</label>
+            </div>
+          </div>
+          <div class="field is-grouped">
+            <div class="control">
+              <button class="button is-primary">Submit</button>
+            </div>
+            <div class="control">
+              <button class="button is-text has-text-light">Cancel</button>
             </div>
           </div>
         </div>
       </div>
-
-      <section id="form">
-        <div class="field">
-          <label class="label has-text-dark">Name</label>
-          <div class="control">
-            <input class="input" type="text" placeholder="Your Name">
-          </div>
-        </div>
-        <div class="field">
-          <label class="label has-text-dark">Email</label>
-          <div class="control has-icons-left has-icons-right">
-            <input class="input" type="email" placeholder="Email" value="">
-            <span class="icon is-small is-left">
-              <i class="fas fa-envelope"></i>
-            </span>
-          </div>
-        </div>   
-        <!-- <div class="field">
-          <label class="label has-text-light">Subject</label>
-          <div class="control">
-            <div class="select">
-              <select> 
-                <option>Select an option...</option>
-                <option>Commissions</option>
-                <option>Events/Markets</option>
-                <option>Wholesale</option>
-                <option>Other</option>
-              </select>
-            </div>
-          </div>
-        </div> -->
-        <div class="field">
-          <label class="label has-text-dark">Message</label>
-          <div class="control">
-            <textarea class="textarea" placeholder="Textarea"></textarea>
-          </div>
-        </div>
-        <div class="field is-grouped">
-          <div class="control">
-            <button class="button is-primary">Submit</button>
-          </div>
-          <div class="control">
-            <button class="button is-text has-text-light">Cancel</button>
-          </div>
-        </div>
-      </section>
     </main>
 
     <!-- Footer -->
