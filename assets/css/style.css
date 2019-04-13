@@ -92,3 +92,31 @@ color: #b2dfdb;
 #julie:focus {
 color: #b2dfdb;
 }
+
+@media screen and (max-width: 1024px) {
+  header {
+    margin-bottom: 1rem;
+  }
+  nav {
+    height: 100px;
+  }
+  #nav-mobile {
+    position: relative;
+    width: 100%;
+    padding-top: 45px;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  #julie {
+    font-size: 50px;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .brand-logo {
+    font-size: 24px;
+  }
+}
