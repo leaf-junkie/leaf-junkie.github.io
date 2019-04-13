@@ -39,9 +39,9 @@ $(document).ready(function() {
     // When user clicks "cancel" button, clear the form
     $(".cancel").click(function(event) {
         event.preventDefault();
-        $(".name").val("");
-        $(".email").val("");
-        $("#textarea1").val("");
+        $("#name").val("");
+        $("#email").val("");
+        $("#message").val("");
         $(".status").empty();
     }); 
 });
