@@ -39,37 +39,29 @@
               <h4 class="white-text" style="padding-bottom:10px">I can't wait to hear from you!</h4>
             </div>
           </div>
-          <form style="padding:0 25px 25px 25px;">
-            <div class="row">
-              <div class="input-field col s6">
-                <i class="material-icons prefix">person</i>
-                <input type="text" id="autocomplete-input" class="name autocomplete">
-                <label for="autocomplete-input">Name</label>
+          <div style="padding:0 25px 25px 25px;">
+            <form method="POST" action="https://formspree.io/ragsdale.jar@gmail.com">
+              <div class="row">
+                  <div class="input-field col s6">
+                    <i class="material-icons prefix">person</i>
+                    <input type="text" name="name" placeholder="Your name" id="name">
+                  </div>
+                  <div class="input-field col s6">
+                    <i class="material-icons prefix">email</i>
+                    <input type="email" name="email" placeholder="Your email" id="email">
+                  </div>
               </div>
-              <div class="input-field col s6">
-                <i class="material-icons prefix">email</i>
-                <input type="email" id="autocomplete-input" class="email autocomplete">
-                <label for="autocomplete-input">Email</label>
+              <div class="row">
+                <div class="input-field col s12">
+                  <i class="material-icons prefix">mode_edit</i>
+                  <textarea name="message" placeholder="Message" id="message"></textarea>
+                </div>
               </div>
-            </div>
-            <div class="row">
-              <div class="input-field col s12">
-                <i class="material-icons prefix">mode_edit</i>
-                <textarea id="textarea1" class="materialize-textarea"></textarea>
-                <label for="textarea1">Message</label>
-              </div>
-            </div>
+              <button type="submit" class="waves-effect waves-light teal btn submit">Submit</button>
+              <button class="waves-effect waves-red btn-flat cancel">Cancel</button>
+            </form>
             <div class="status"></div>
-            <br>
-            <div class="buttonGroup">
-              <div class="control">
-                  <a class="waves-effect waves-light teal btn submit">Submit</a>
-              </div>
-              <div class="control">
-                <a class="waves-effect waves-red btn-flat cancel">Cancel</a>
-              </div>
-            </div>
-          </form>
+          </div>
         </div>
       </div>
     </main>
