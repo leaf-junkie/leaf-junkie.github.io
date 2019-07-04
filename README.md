@@ -1,5 +1,3 @@
 # leaf-junkie.github.io
 
-Link to personal site: https://leaf-junkie.github.io/
-
-Learn a bit more about me, and see what I've made!
+Check out my portfolio https://leaf-junkie.github.io/ to learn a bit more about me and to see what I've made.
