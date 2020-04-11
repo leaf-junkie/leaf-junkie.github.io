@@ -4,131 +4,120 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Julie</title>
-    <!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script> 
-    <!-- Link to CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>    
+    <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="/assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
-    <link rel="stylesheet" type="text/css" href="/assets/css/style.css" media="screen and (max-width: 1024px)">
-    <link rel="stylesheet" type="text/css" href="/assets/css/style.css" media="screen and (max-width: 750px)">
-    <link rel="stylesheet" type="text/css" href="/assets/css/style.css" media="screen and (max-width: 568px)">
-
-    <!--Import Google Icon Font-->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat|Lora" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Pacifico|Hind" rel="stylesheet">
   </head>
-  <body>
+  <body class="has-background-light">
+    
     <!-- Header -->
-    <header>
-      <nav class="grey darken-2">
-        <div class="nav-wrapper container">
-          <a href="index.html" class="brand-logo">Julie Ragsdale</a>
-          <ul id="nav-mobile" class="right">
-            <li><a href="about.html">About</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-        </div>
-      </nav>
-    </header>
-    <!-- Main Content -->
-    <div class="col s12 m12 show-on-medium-and-down hide-on-large-only">
-      <div class="card horizontal">
-        <div class="card-image">
-          <img src="/assets/images/headshot.jpg">
-        </div>
-        <div class="card-stacked">
-            <h4>Things I love</h4>
-            <ul>
-              <li><i class="material-icons">add</i>house plants</li>
-              <li><i class="material-icons">add</i>cats + dogs</li>
-              <li><i class="material-icons">add</i>color schemes</li>
-              <li><i class="material-icons">add</i>designing + coding</li>
-              <li><i class="material-icons">add</i>DIY</li>
-              <li><i class="material-icons">add</i>moody weather</li>
-              <li><i class="material-icons">add</i>lattes</li>
-              <li><i class="material-icons">add</i>the color grey</li>
-            </ul>
-        </div>
-      </div>
-    </div>
-    <main class="container">
-      <div class="row">
-        <div class="col s12 m12 l8">
-          <h1 class="bold">Hi, I'm Julie!</h1>
-          <br>
-          <p>
-            Thanks for taking a moment to visit my page. I received a certificate
-            in web development in May of 2019. While I can work a full stack (MERN), 
-            I would consider myself T-shaped and much prefer the front end. As an 
-            artist, I am passionate about design and believe websites should be both 
-            functional and beautiful. I feel strongly about the significant 
-            contributions that subtle details add to a website.
-          </p>
-          <br>
-          <p>
-            I primarily work with JavaScript (and, of course, HTML and CSS). Check out 
-            my <a href="/assets/Julie-Ragsdale_Web Dev Resume.pdf" target="_blank">resume</a> 
-            to see more of the technologies I know.
-          </p>
-        </div>
-        <div class="col l4">
-          <div class="card hide-on-med-and-down show-on-large">
-            <div class="card-image">
-              <img src="assets/images/headshot.jpg" alt="Picture of Julie Ragsdale">
-              <span class="card-title">Julie Ragsdale</span>
-              <a class="btn-floating halfway-fab waves-effect waves-light red accent-2" href="contact.html"><i class="material-icons">add</i></a>
+    <section class="hero is-dark">
+        <!-- Hero head: will stick at the top -->
+        <div class="hero-head">
+          <nav class="navbar">
+            <div class="container">
+              <!-- <div class="navbar-brand">
+                <a class="navbar-item">
+                    <script type='text/javascript' src='https://ko-fi.com/widgets/widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Treat me to coffee', '#46b798', 'T6T5PSZH');kofiwidget2.draw();</script> 
+                </a>
+              </div> -->
             </div>
-            <div class="card-content">
-              <h4 class="bold">Things I love</h4>
+          </nav>
+        </div>
+      
+        <!-- Hero content: will be in the middle -->
+        <div class="hero-body montserrat">
+          <div class="container has-text-centered">
+            <h1 class="title">
+              <a href="index.html">Julie Ragsdale</a>
+            </h1>
+            <h2 class="subtitle">
+              Artist | Web Developer
+            </h2>
+          </div>
+        </div>
+      
+        <!-- Hero footer: will stick at the bottom -->
+        <div class="hero-foot">
+          <nav class="tabs">
+            <div class="container">
+              <ul class="navList">
+                <li class="is-active"><a href="about.html">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="has-background-white">
+      <section class="section columns level">
+        <div class="container" id="profile">
+          <div class="column is-two-thirds">
+            <div class="section has-text-dark rounded-corners" id="things-i-like">
+              <p class="title has-text-dark montserrat">Hi, I'm Julie!</p>
+              <p class="is-size-5">
+                Thanks for taking a moment to visit my page. I received a certificate
+                in web development in May of 2019. While I can work a full stack, I 
+                consider myself T-shaped and am a strong front end developer. Currently, 
+                the technology I work with the most includes JavaScript, HTML, CSS, MySQL, 
+                jQuery, and PHP. As an artist, I am passionate about design and believe 
+                websites should be both functional and beautiful. I feel strongly about 
+                the significant contributions that subtle details can add to a website.
+              </p>
               <br>
-              <ul>
-                <li><i class="material-icons">add</i>houseplants</li>
-                <li><i class="material-icons">add</i>cats + dogs</li>
-                <li><i class="material-icons">add</i>coding</li>
-                <li><i class="material-icons">add</i>moody weather</li>
-                <li><i class="material-icons">add</i>iced lattes</li>
+              <p class="subtitle has-text-dark">Some things I like:</p>
+              <ul class="content is-size-5">
+                <li>&#x2023; House plants</li>
+                <li>&#x2023; Cats + dogs</li>
+                <li>&#x2023; Art and all things DIY</li>
+                <li>&#x2023; Coding + web design</li>
+                <li>&#x2023; Iced lattes</li>
               </ul>
             </div>
           </div>
+          <div class="column is-one-third">
+            <div class="card has-background-grey-darker" id="profileCard">
+              <img src="assets/images/headshot.jpg" class="card-img-top" alt="Picture of Julie Ragsdale">
+              <div class="card-content">
+                <div class="media">
+                  <div class="media-left">
+                    <figure class="image is-48x48">
+                      <img src="https://magentys.io/wp-content/uploads/2017/04/github-logo-1.png" alt="Placeholder image">
+                    </figure>
+                  </div>
+                  <div class="media-content">
+                    <p class="title is-4 has-text-white">Julie Ragsdale</p>
+                    <p class="subtitle is-6 has-text-white">@leaf-junkie</p>
+                  </div>
+                </div>
+                <div class="has-text-centered">
+                  <a href="portfolio.html" class="button btnGrad" id="card-button">Portfolio</a>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>       
+      </section>
     </main>
+
     <!-- Footer -->
-    <footer class="page-footer grey darken-2">
-      <div class="container">
-        <div class="row">
-          <div class="col l6 s12">
-            <h5 class="white-text">Julie Ragsdale</h5>
+    <footer class="hero is-dark">
+        <div class="container has-text-centered has-text-light">
+            <p><a href="https://github.com/leaf-junkie">Julie Ragsdale</a> | © 2018</p>
             <br>
-            <p class="grey-text text-lighten-4"></p>
-          </div>
-          <div class="col l4 offset-l2 s12">
-            <h5 class="white-text">Navigation</h5>
-            <br>
-            <ul>
-              <li><a class="grey-text text-lighten-3" href="index.html"><i class="material-icons">chevron_right</i>Landing Page</a></li>
-              <li><a class="grey-text text-lighten-3" href="about.html"><i class="material-icons">chevron_right</i>About</a></li>
-              <li><a class="grey-text text-lighten-3" href="portfolio.html"><i class="material-icons">chevron_right</i>Portfolio</a></li>
-              <li><a class="grey-text text-lighten-3" href="contact.html"><i class="material-icons">chevron_right</i>Contact</a></li>
-            </ul>
-          </div>
+            <!-- <img src="https://bulma.io/images/made-with-bulma.png"  style="max-width: 150px;"> -->
         </div>
-      </div>
-      <div class="footer-copyright">
-        <div class="container">
-        © 2019 Copyright
-        <a class="grey-text text-lighten-4 right" href="https://github.com/leaf-junkie">
-          <img src="https://magentys.io/wp-content/uploads/2017/04/github-logo-1.png" alt="Github logo" style="width:20px;">
-          Github
-        </a>
-        </div>
-      </div>
     </footer>
-    <!-- Materialize JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <!-- jQuery -->
+
+    <!-- Links to jQuery (slim build), Popper.js, and JavaScript
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script> -->
   </body>
 </html>

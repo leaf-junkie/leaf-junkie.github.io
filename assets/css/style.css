@@ -1,122 +1,145 @@
 body {
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
+  font-family: 'Hind', sans-serif;
   line-height: 150%;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 18px;
-  color: #212121;
 }
 
-header {
-  margin-bottom: 4rem;
+/* Particles */
+/* Reset. */
+body {
+  margin: 0;
+  background: #ecf3f3;
 }
 
-nav {
-  padding-top: 1rem;
-  vertical-align: middle;
+canvas {
+  display: block;
+  /* vertical-align: bottom; */
 }
 
-main {
-  flex: 1 0 auto;
-}
-
-p {
-  font-family: 'Lora', serif;
-}
-
-h1 {
-  font-size: 36px;
-}
-h4 {
-  font-size: 20px;
-}
-
-i {
-  vertical-align: text-bottom;
-}
-
-a {
-  color: #4db6ac ;
-}
-
-a:hover {
-  color: #b2dfdb;
-}
-
-.card-title {
-  font-size: 20px !important;
-}
-
-.bold {
-  font-weight: bold;
-}
-
-.julie {
-  width: 25%;
-}
-
-.buttonGroup {
-  display: flex;
-}
-
-/* Particles for landing page */
+/* Particle container. */
 #particle-container {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-color: #424242 ;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: hsl(0, 0%, 21%);
 }
 
 #julie {
-position: relative;
-top: 45%;
-bottom: 0;
-right: 0;
-left: 0;
-width: 100%;
-margin: 0 auto;
-color: #fff;
-font-size: 100px;
-text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 60px;
+  text-align: center;
+  transition: 0.5s;
+  background-size: 200% auto;
+  background-image: 
+    linear-gradient(
+      45deg, 
+      #fbde86 0%, 
+      #fba386 51%, 
+      #fb86a4   100%
+    );
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 #julie:hover {
-color: #b2dfdb;
+  background-position: right center;
 }
 
 #julie:active {
-color: #b2dfdb;
+  color: #fff;
 }
 
 #julie:focus {
-color: #b2dfdb;
+  color: #fff;
 }
 
-@media screen and (max-width: 1024px) {
-  header {
-    margin-bottom: 1rem;
-  }
-  nav {
-    height: 100px;
-  }
-  #nav-mobile {
-    position: relative;
-    width: 100%;
-    padding-top: 45px;
-    display: flex;
-    justify-content: center;
-  }
+#profile {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
-@media screen and (max-width: 750px) {
-  #julie {
-    font-size: 50px;
-  }
+ul.navList {
+  display: flex;
+  justify-content: center;
 }
 
-@media screen and (max-width: 568px) {
-  .brand-logo {
-    font-size: 24px;
-  }
+a {
+  color: #fff;
+}
+
+.montserrat {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Gradient buttons */
+.btnGrad {
+  flex: 1 1 auto;
+  margin: 10px;
+  padding: 30px;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: 0.5s;
+  border-radius: 10px;
+  background-size: 200% auto;
+  background-image: 
+    linear-gradient(
+      45deg, 
+      #fbde86 0%, 
+      #fba386 51%, 
+      #fb86a4   100%
+    );
+}
+
+.btnGrad:hover { 
+  color: #fff;
+  background-position: right center;
+}
+
+/* Rounded corners */
+.card-img-top,
+.card,
+#form-container {
+  border-radius: 15px;
+}
+
+.rounded-corners {
+  border-radius: 15px;
+}
+
+.card-img-top {
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.card-footer {
+  border: none;
+  align-items: center;
+}
+
+.wrapper {
+  margin-bottom: 10rem;
+}
+.field {
+  padding: 15px !important;
+}
+
+.hidden {
+  display: none;
+}
+
+.field {
+  padding: 50px;
+}
+
+footer {
+  position: fixed;
+  height: 150px;
+  bottom: 0;
+  width: 100%;
+  padding: 1.5rem;
 }
