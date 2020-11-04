@@ -4,7 +4,7 @@ const projects = [
         "description": "This is a full stack React application that queries the Google Books API when the user searches for books. Users can additionally save books to a database (MongoDB) as well as delete them from the database.",
         "website": "https://stark-lowlands-50053.herokuapp.com/",
         "github": "https://github.com/leaf-junkie/google-books-search",
-        "image": "",
+        "image": "https://picsum.photos/200",
         "technology": ["React", "JavaScript", "HTML", "CSS", "MongoDB", "API"]
     },
     {
@@ -12,7 +12,7 @@ const projects = [
         "description": "Find your next best friend with Kinspir, a platonic matchmaker deployed to Heroku.",
         "website": "https://ragsdale-friendfinder.herokuapp.com/",
         "github": "https://github.com/leaf-junkie/FriendFinder",
-        "image": "",
+        "image": "https://picsum.photos/200",
         "technology": ["JavaScript", "HTML", "CSS", "Handlebars", "Heroku"]
     },
     {
@@ -20,7 +20,7 @@ const projects = [
         "description": "Search for gifs using the Giphy API.",
         "website": "https://leaf-junkie.github.io/giftastic/",
         "github": "https://github.com/leaf-junkie/giftastic/",
-        "image": "",
+        "image": "https://picsum.photos/200",
         "technology": ["JavaScript", "HTML", "CSS", "Giphy API"]
     },
     {
@@ -28,7 +28,7 @@ const projects = [
         "description": "You know the story about Rikki Tikki Tavi? If not, you should run and find out! This is just tic tac toe where you play as mongooses and cobras instead of Xs and Os.",
         "website": "https://rikki-tikki-takki.herokuapp.com/",
         "github": "https://github.com/leaf-junkie/tic-tac-toe",
-        "image": "",
+        "image": "https://picsum.photos/200",
         "technology": ["React", "JavaScript", "HTML", "CSS"]
     },
     {
@@ -36,7 +36,7 @@ const projects = [
         "description": "Clicky Cat is a click-based memory game. There are 15 images displayed on the screen. The objective is to click each image once and only once. The game is over as soon as you click any image a second time. See how high you can score!",
         "website": "https://leaf-junkie.github.io/Clicky-Cat/",
         "github": "https://github.com/leaf-junkie/Clicky-Cat",
-        "image": "",
+        "image": "https://picsum.photos/200",
         "technology": ["React", "JavaScript", "HTML", "CSS"]
     },
     {
@@ -44,7 +44,7 @@ const projects = [
         "description": "A complete website redesign for a small group of financial planners and advisers in Florida.",
         "website": "https://www.sevenhillsfinancial.com",
         "github": "",
-        "image": "",
+        "image": "https://picsum.photos/200",
         "technology": ["React", "JavaScript", "HTML", "CSS", "Bootstrap", "WordPress"]
     },
     {
@@ -52,7 +52,7 @@ const projects = [
         "description": "An Amazon-like storefront with CLI and MySQL. As a customer, you can view and purchase items. As a manager, you can manage the inventory of products.",
         "website": "",
         "github": "",
-        "image": "",
+        "image": "https://picsum.photos/200",
         "technology": ["JavaScript", "HTML", "CSS", "Node.js", "Express", "MySQL"]
     }    
 ];

@@ -1,9 +1,11 @@
 body {
   margin: 0;
   padding: 0;
-  background-image: url('../images/terrazzo-0.jpeg');
+  background-image: url('../images/terracotta.jpeg');
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
   font-family: 'Hind', sans-serif;
   line-height: 150%;
 }
