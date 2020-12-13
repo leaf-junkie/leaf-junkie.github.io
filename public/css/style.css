@@ -1,15 +1,57 @@
 body {
   margin: 0;
   padding: 0;
-  background-image: url('../images/terracotta.jpeg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
   height: 100vh;
-  font-family: 'Hind', sans-serif;
   line-height: 150%;
+  background: #EBD5CB;
+  font-family: 'Montserrat', sans-serif;
 }
 
+h1, h2, h3, h4 {
+  font-family: 'Playfair Display', serif;
+}
+
+#home {
+  position: relative; 
+  height: 85vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* #home::before {
+  content: "";
+  background-image: url("../images/terracotta.jpeg");
+  filter: grayscale(25%) opacity(50%);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.75;
+} */
+
+#home a {
+  text-decoration: underline;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+.container {
+  z-index: 10;
+}
+
+.socialBtnContainer {
+  width: 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
 .btn-primary {
   background: #453e3e;
   /* background: #925350; */
@@ -27,6 +69,10 @@ body {
   transform: translate(33%, -50%);
 }
 
+#about {
+  padding-bottom: 12vh;
+}
+
 #about .card {
   margin: 4vh auto;
   background: rgba(255, 255, 255, 0.2);
@@ -35,7 +81,13 @@ body {
 }
 
 #portfolio .card {
-  border: none;
+  /* border: none; */
+  margin-top: 2vh;
+  margin-bottom: 6vh;
+}
+
+#portfolio .card-img-top {
+  height: auto !important;
 }
 
 .is-rounded {
@@ -98,3 +150,20 @@ footer {
   width: 100%;
   padding: 1.5rem;
 }
+
+@media screen and (min-width: 768px) {
+  #about img {
+    width: 350px;
+    float: right;
+    padding-left: 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #about img {
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 0;
+  }
+}
+

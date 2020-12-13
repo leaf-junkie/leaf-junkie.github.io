@@ -1,10 +1,18 @@
 const projects = [
     {
+        "title": "D&D Spellbook",
+        "description": "I created this little pocket spellbook to keep my spells organized during D&D sessions.",
+        "website": "https://leaf-junkie.github.io/d20-dice-roller/",
+        "github": "https://github.com/leaf-junkie/d20-dice-roller",
+        "image": "images/projectImages/dndSpellbook.PNG",
+        "technology": ["JavaScript", "HTML", "CSS", "Bootstrap"]
+    },
+    {
         "title": "Google Book Search",
         "description": "This is a full stack React application that queries the Google Books API when the user searches for books. Users can additionally save books to a database (MongoDB) as well as delete them from the database.",
         "website": "https://stark-lowlands-50053.herokuapp.com/",
         "github": "https://github.com/leaf-junkie/google-books-search",
-        "image": "https://picsum.photos/200",
+        "image": "images/projectImages/figma/theShelf_landingPage.PNG",
         "technology": ["React", "JavaScript", "HTML", "CSS", "MongoDB", "API"]
     },
     {
@@ -12,49 +20,49 @@ const projects = [
         "description": "Find your next best friend with Kinspir, a platonic matchmaker deployed to Heroku.",
         "website": "https://ragsdale-friendfinder.herokuapp.com/",
         "github": "https://github.com/leaf-junkie/FriendFinder",
-        "image": "https://picsum.photos/200",
-        "technology": ["JavaScript", "HTML", "CSS", "Handlebars", "Heroku"]
-    },
-    {
-        "title": "giftastic",
-        "description": "Search for gifs using the Giphy API.",
-        "website": "https://leaf-junkie.github.io/giftastic/",
-        "github": "https://github.com/leaf-junkie/giftastic/",
-        "image": "https://picsum.photos/200",
-        "technology": ["JavaScript", "HTML", "CSS", "Giphy API"]
-    },
-    {
-        "title": "Rikki Tikki Takki",
-        "description": "You know the story about Rikki Tikki Tavi? If not, you should run and find out! This is just tic tac toe where you play as mongooses and cobras instead of Xs and Os.",
-        "website": "https://rikki-tikki-takki.herokuapp.com/",
-        "github": "https://github.com/leaf-junkie/tic-tac-toe",
-        "image": "https://picsum.photos/200",
-        "technology": ["React", "JavaScript", "HTML", "CSS"]
-    },
-    {
-        "title": "Clicky Cat",
-        "description": "Clicky Cat is a click-based memory game. There are 15 images displayed on the screen. The objective is to click each image once and only once. The game is over as soon as you click any image a second time. See how high you can score!",
-        "website": "https://leaf-junkie.github.io/Clicky-Cat/",
-        "github": "https://github.com/leaf-junkie/Clicky-Cat",
-        "image": "https://picsum.photos/200",
-        "technology": ["React", "JavaScript", "HTML", "CSS"]
+        "image": "images/projectImages/kinspir.PNG",
+        "technology": ["JavaScript", "HTML", "CSS", "Node", "Express", "Heroku"]
     },
     {
         "title": "Seven hills Financial",
         "description": "A complete website redesign for a small group of financial planners and advisers in Florida.",
         "website": "https://www.sevenhillsfinancial.com",
         "github": "",
-        "image": "https://picsum.photos/200",
+        "image": "images/projectImages/sevenHillsFinancial.PNG",
         "technology": ["React", "JavaScript", "HTML", "CSS", "Bootstrap", "WordPress"]
     },
-    {
-        "title": "Bamazon",
-        "description": "An Amazon-like storefront with CLI and MySQL. As a customer, you can view and purchase items. As a manager, you can manage the inventory of products.",
-        "website": "",
-        "github": "",
-        "image": "https://picsum.photos/200",
-        "technology": ["JavaScript", "HTML", "CSS", "Node.js", "Express", "MySQL"]
-    }    
+    // {
+    //     "title": "giftastic",
+    //     "description": "Search for gifs using the Giphy API.",
+    //     "website": "https://leaf-junkie.github.io/giftastic/",
+    //     "github": "https://github.com/leaf-junkie/giftastic/",
+    //     "image": "",
+    //     "technology": ["JavaScript", "HTML", "CSS", "Giphy API"]
+    // },
+    // {
+    //     "title": "Rikki Tikki Takki",
+    //     "description": "You know the story about Rikki Tikki Tavi? If not, you should run and find out! This is just tic tac toe where you play as mongooses and cobras instead of Xs and Os.",
+    //     "website": "https://rikki-tikki-takki.herokuapp.com/",
+    //     "github": "https://github.com/leaf-junkie/tic-tac-toe",
+    //     "image": "",
+    //     "technology": ["React", "JavaScript", "HTML", "CSS"]
+    // },
+    // {
+    //     "title": "Clicky Cat",
+    //     "description": "Clicky Cat is a click-based memory game. There are 15 images displayed on the screen. The objective is to click each image once and only once. The game is over as soon as you click any image a second time. See how high you can score!",
+    //     "website": "https://leaf-junkie.github.io/Clicky-Cat/",
+    //     "github": "https://github.com/leaf-junkie/Clicky-Cat",
+    //     "image": "",
+    //     "technology": ["React", "JavaScript", "HTML", "CSS"]
+    // },
+    // {
+    //     "title": "Bamazon",
+    //     "description": "An Amazon-like storefront with CLI and MySQL. As a customer, you can view and purchase items. As a manager, you can manage the inventory of products.",
+    //     "website": "",
+    //     "github": "",
+    //     "image": "",
+    //     "technology": ["JavaScript", "HTML", "CSS", "Node.js", "Express", "MySQL"]
+    // }    
 ];
 
 module.exports = projects;
